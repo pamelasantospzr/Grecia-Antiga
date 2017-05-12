@@ -2,8 +2,9 @@ html body {
 	margin:0;
 	padding: :0;
 	background:url(https://peppertouch.files.wordpress.com/2009/05/bouguereau_the_nymphaeum.jpg);
-	font: small-caps;
 	color: #FFFFFF;
+	font-family: 'Capriola', sans-serif;
+
 
 
 }
@@ -42,7 +43,29 @@ section{
 img{
 	width: 300px;
 	height:300px;
+	border: 20px;
 }
 p{
 	width: 50%;
+}
+footer {
+	display:flex;
+	flex-direction: column;
+	justify-content-: center;
+	align-items: center;
+	font-size: 1.40em;
+}
+.text{
+	color: red;
+	text-align: center;
+}
+h1{
+	color: red;
+	text-align: center;
+
+}
+h2{
+	color: red;
+	text-align: center;
+
 }
